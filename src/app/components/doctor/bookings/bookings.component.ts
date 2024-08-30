@@ -34,6 +34,7 @@ export class BookingsComponent implements OnInit{
     this._doctorService.get_bookings_of_doctor({doctorId:localStorage.getItem('doctorId')}).subscribe({
       next:(Response)=>{
         // if(Response.length===0){
+        console.log('response:',Response)
           this.payments=Response
           this.payments_to_display=this.payments
         // }
