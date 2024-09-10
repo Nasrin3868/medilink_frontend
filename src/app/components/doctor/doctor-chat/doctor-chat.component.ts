@@ -12,7 +12,7 @@ import { ChatService } from 'src/app/services/chat.service';
 @Component({
   selector: 'app-doctor-chat',
   templateUrl: './doctor-chat.component.html',
-  styleUrls: ['./doctor-chat.component.css']
+  styleUrls: [ './doctor-chat.component.css']
 })
 export class DoctorChatComponent implements OnInit{
 
